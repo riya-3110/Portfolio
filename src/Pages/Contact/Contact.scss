@@ -1,0 +1,104 @@
+.contact {
+  height: 60vh;
+  width: 100%;
+  // color: #d0eef8;
+  // background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-vector/futuristic-white-technology-background_23-2148390336.jpg?uid=R169081652&ga=GA1.1.1024980089.1726646645&semt=ais_hybrid");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // background-attachment: fixed;
+
+  .upper-container {
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+      font-size: 35px;
+      margin-bottom: 18px;
+    }
+    input {
+      background: #000;
+      color: white;
+      width: 100%;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      margin-bottom: 15px;
+      padding: 10px 40px 10px 20px;
+
+      &::placeholder {
+        font-size: 15px;
+        color: white;
+      }
+    }
+    textarea {
+      background: #000;
+      margin-bottom: 15px;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 10px 40px 10px 20px;
+      color: white;
+
+      &::placeholder {
+        font-size: 15px;
+        color: white;
+      }
+    }
+    button {
+      background: #000;
+      color: white;
+      border: none;
+      padding: 10px 40px;
+      border-radius: 5px;
+      font-size: 18px;
+      margin-top: 12px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    .errorMsg {
+      margin-top: -5px;
+      font-size: 16px;
+      color: red;
+    }
+  }
+
+  .lower-container {
+    margin-top: 30px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 45px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+
+      .icon {
+        cursor: pointer;
+        font-size: 40px;
+
+        &:hover {
+          color: #68a9be;
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}

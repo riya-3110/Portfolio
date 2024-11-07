@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+} */
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}

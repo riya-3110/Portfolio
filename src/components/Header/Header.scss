@@ -1,0 +1,36 @@
+.header {
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  background: #121212;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+
+  ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease;
+    li {
+      a {
+        text-decoration: none;
+        color: #d0eef8;
+        font-size: 22px;
+        cursor: pointer;
+
+        &:hover {
+          font-weight: bold;
+        }
+        &.active {
+          color: #4aa0bc;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}

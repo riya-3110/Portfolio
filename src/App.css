@@ -1,0 +1,11 @@
+.App {
+  width: 100vw;
+  scroll-behavior: smooth;
+}
+
+.sections {
+  width: 100%;
+  height: calc(100% - 80px);
+  display: flex;
+  flex-direction: column;
+}
